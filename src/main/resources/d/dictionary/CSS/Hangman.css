@@ -1,0 +1,12 @@
+.background-image {
+    -fx-background-image: url('../image/hangmanbg.png');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.font-text {
+    -fx-font-family: 'Comfortaa', Sans-serif;
+    -fx-font-size: 16px;
+    -fx-text-fill: #40b9ff;
+}

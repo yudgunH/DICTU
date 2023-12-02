@@ -1,0 +1,12 @@
+apple	danh từ	quả táo
+bee	danh từ	con ong
+book	danh từ	quyển sách
+look	động từ	nhìn
+tree	danh từ	cái cây
+dog	danh từ	con chó
+cat 	danh từ	con mèo
+baby	danh từ	trẻ em
+angle	danh từ	thiên thần
+ape	danh từ	con vượn
+
+

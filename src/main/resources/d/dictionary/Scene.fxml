@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="root" stylesheets="@CSS/Login.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="d.dictionary.Controller.Controller">
+    <children>
+        <Button fx:id="loginButton" cache="true" cacheHint="SPEED" layoutX="357.0" layoutY="461.0" mnemonicParsing="false" onAction="#login" prefHeight="37.0" prefWidth="86.0" styleClass="button_search" stylesheets="@CSS/Button.css" text="Login" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="357.0" AnchorPane.rightAnchor="357.0" AnchorPane.topAnchor="461.0" />
+        <TextField fx:id="nameTextField" layoutX="325.0" layoutY="344.0" onAction="#login" styleClass="text_show" stylesheets="@CSS/Login.css" />
+        <Label layoutX="237.0" layoutY="348.0" styleClass="root_container" stylesheets="@CSS/Login.css" text="username" />
+        <TextField fx:id="passwordTextField" layoutX="325.0" layoutY="410.0" onAction="#login" styleClass="text_show" stylesheets="@CSS/Login.css" />
+        <Label layoutX="238.0" layoutY="414.0" styleClass="root_container" stylesheets="@CSS/Login.css" text="password" />
+      <ImageView fitHeight="160.0" fitWidth="192.0" layoutX="304.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/R_11zon.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="exitButton" layoutX="377.0" layoutY="525.0" mnemonicParsing="false" stylesheets="@CSS/Button.css" text="Exit">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Text layoutX="77.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chào mừng bạn đến với từ điển của TuTune04 và MinhHoBui">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

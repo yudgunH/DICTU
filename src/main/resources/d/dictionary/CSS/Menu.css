@@ -1,0 +1,36 @@
+.anchorPane :focused {
+    -fx-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.anchorPane .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.anchorPane .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+.anchorPane .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.rectangle {
+    -fx-background-color: transparent;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-padding: 10px;
+    -fx-border-color: #999999;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+}
+.button:hover {
+    -fx-background-color: #CCFFCC;
+    -fx-padding: 10px;
+    -fx-border-color: #999999;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+}
